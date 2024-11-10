@@ -9,11 +9,7 @@ public class SpikeCollision : MonoBehaviour
 {
     public Player playerHealth;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    // When player collides with spikes, player dies and scene switches
 
     private void OnCollisionEnter2D(Collision2D spikeCollision)
     {
