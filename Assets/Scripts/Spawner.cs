@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // This spawns an enemy at between random range on platform
+        // This spawns an enemy between random range on platform
 
         float x = Random.Range(0, 1.75f);
         float y = Random.Range(0, -0.5f);

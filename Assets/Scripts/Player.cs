@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D enemyCollision)
     {
-        // If player collides with enemy the player takes random damage amount and debugs remaining health
+        // If player collides with enemy, the player takes random damage amount and debugs remaining health
 
         if (enemyCollision.gameObject.CompareTag("Enemy"))
         {
